@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contributions · nopol10</title>
+<meta name="description" content="A selection of my contributions to open source projects">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1d1c1a;
+    --muted: #77736b;
+    --rule: #e3dfd6;
+    --link: #1d1c1a;
+    --accent: #b5462a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #171614;
+      --fg: #e8e5de;
+      --muted: #8f8a80;
+      --rule: #2e2c28;
+      --link: #e8e5de;
+      --accent: #e0805f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  }
+  main {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 5rem 1.25rem 6rem;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 0 0 3rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th {
+    text-align: left;
+    font: 0.72rem/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-weight: normal;
+    padding: 0 0 0.75rem;
+    border-bottom: 1px solid var(--fg);
+  }
+  td {
+    vertical-align: baseline;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  td.where {
+    width: 42%;
+    padding-right: 1.5rem;
+    font: 0.86rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  td.where .repo { color: var(--muted); display: block; }
+  td.where a + .repo { margin-top: 0.6rem; }
+  a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  a:hover { color: var(--accent); border-color: var(--accent); }
+  @media (max-width: 560px) {
+    main { padding-top: 3rem; }
+    thead { display: none; }
+    tr, td { display: block; }
+    td.where { width: auto; padding: 1rem 0 0.25rem; border: 0; }
+    td.what { padding-top: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>A selection of my contributions to open source projects</h1>
+  <table>
+    <thead>
+      <tr><th>Issue</th><th>Problem</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="where"><span class="repo">libass/JavascriptSubtitlesOctopus</span><a href="https://github.com/libass/JavascriptSubtitlesOctopus/issues/72">#72</a></td>
+        <td class="what">Heavy animated subtitles lag and run out of memory</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">firebase/firebase-js-sdk</span><a href="https://github.com/firebase/firebase-js-sdk/issues/4002">#4002</a></td>
+        <td class="what">Firebase Auth doesn't work in Firefox extensions</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">ionic-team/cordova-plugin-ionic-keyboard</span><a href="https://github.com/ionic-team/cordova-plugin-ionic-keyboard/issues/117">#117</a></td>
+        <td class="what">App extends under Android's navigation bar</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">libass/JavascriptSubtitlesOctopus</span><a href="https://github.com/libass/JavascriptSubtitlesOctopus/issues/108">#108</a></td>
+        <td class="what">Build fails at random in CI</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">facebook/lexical</span><a href="https://github.com/facebook/lexical/issues/2951">#2951</a></td>
+        <td class="what">Nested lists exported as invalid HTML</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">tshaddix/webext-redux</span><a href="https://github.com/tshaddix/webext-redux/issues/244">#244</a><span class="repo">hindmost/reduxed-chrome-storage</span><a href="https://github.com/hindmost/reduxed-chrome-storage/issues/6">#6</a></td>
+        <td class="what">Redux in Manifest V3 extensions</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">greena13/react-hotkeys</span><a href="https://github.com/greena13/react-hotkeys/issues/294">#294</a>, <a href="https://github.com/greena13/react-hotkeys/issues/289">#289</a>, <a href="https://github.com/greena13/react-hotkeys/issues/303">#303</a></td>
+        <td class="what">Hotkeys stop working after pressing space</td>
+      </tr>
+      <tr>
+        <td class="where"><span class="repo">axios/axios</span><a href="https://github.com/axios/axios/issues/7015">#7015</a></td>
+        <td class="what">Fetch adapter in 1.12.0 breaks compatibility with MSW</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>
