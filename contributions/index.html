@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contributions · nopol10</title>
-<meta name="description" content="A selection of my contributions to open source projects">
+<title>Open Source Issue Resolution Contributions · nopol10</title>
+<meta name="description" content="A selection of my contributions to resolving issues in other open source projects">
 <style>
   :root {
     --bg: #fbfaf7;
@@ -87,43 +87,39 @@
 </head>
 <body>
 <main>
-  <h1>A selection of my contributions to open source projects</h1>
+  <h1>A selection of my contributions to resolving issues in other open source projects</h1>
   <table>
     <thead>
-      <tr><th>Issue</th><th>Problem</th></tr>
+      <tr><th>Issue</th><th>Details</th></tr>
     </thead>
     <tbody>
       <tr>
         <td class="where"><span class="repo">libass/JavascriptSubtitlesOctopus</span><a href="https://github.com/libass/JavascriptSubtitlesOctopus/issues/72">#72</a></td>
-        <td class="what">Heavy animated subtitles lag and run out of memory</td>
+        <td class="what">My extension NekoCap support rendering of animated subtitles with the JavascriptSubtitlesOctopus library but certain conditions cause lag and out of memory issues. I dove into the library's code to figure out the solution.</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">firebase/firebase-js-sdk</span><a href="https://github.com/firebase/firebase-js-sdk/issues/4002">#4002</a></td>
-        <td class="what">Firebase Auth doesn't work in Firefox extensions</td>
+        <td class="what">Firebase SDK Auth documentation doesn't state how it can work with Firefox extensions, and I provided a solution with a working implementation in my extension, NekoCap, for others to reference.</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">ionic-team/cordova-plugin-ionic-keyboard</span><a href="https://github.com/ionic-team/cordova-plugin-ionic-keyboard/issues/117">#117</a></td>
-        <td class="what">App extends under Android's navigation bar</td>
+        <td class="what">Debugged a troublesome issue in a Cordova keyboard plugin that caused the app to extend under Android's navigation bar, and provided a solution that helped others overcome the issue when no official solution was provided.</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">libass/JavascriptSubtitlesOctopus</span><a href="https://github.com/libass/JavascriptSubtitlesOctopus/issues/108">#108</a></td>
-        <td class="what">Build fails at random in CI</td>
+        <td class="what">Helped maintainer troubleshoot random failing builds in CI and Docker</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">facebook/lexical</span><a href="https://github.com/facebook/lexical/issues/2951">#2951</a></td>
-        <td class="what">Nested lists exported as invalid HTML</td>
+        <td class="what">Provided a workaround to nested lists in Lexical editor being exported as invalid HTML</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">tshaddix/webext-redux</span><a href="https://github.com/tshaddix/webext-redux/issues/244">#244</a><span class="repo">hindmost/reduxed-chrome-storage</span><a href="https://github.com/hindmost/reduxed-chrome-storage/issues/6">#6</a></td>
-        <td class="what">Redux in Manifest V3 extensions</td>
-      </tr>
-      <tr>
-        <td class="where"><span class="repo">greena13/react-hotkeys</span><a href="https://github.com/greena13/react-hotkeys/issues/294">#294</a>, <a href="https://github.com/greena13/react-hotkeys/issues/289">#289</a>, <a href="https://github.com/greena13/react-hotkeys/issues/303">#303</a></td>
-        <td class="what">Hotkeys stop working after pressing space</td>
+        <td class="what">Participated in helping other developers understand a path to migrating a Redux based application from extension Manifest V2 to V3. Also dug into the redux-saga-thunk library to create a patch for an issue that caused incompatibility with Manifest V3 migration efforts.</td>
       </tr>
       <tr>
         <td class="where"><span class="repo">axios/axios</span><a href="https://github.com/axios/axios/issues/7015">#7015</a></td>
-        <td class="what">Fetch adapter in 1.12.0 breaks compatibility with MSW</td>
+        <td class="what">Fetch adapter in 1.12.0 breaks compatibility with MSW, causing tests that use MSW to break. I quickly created a minimal reproduction repository to allow the maintainers of axios to debug and fix the issue in a short time.</td>
       </tr>
     </tbody>
   </table>
